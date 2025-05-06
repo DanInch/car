@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background-color: #92a816;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: sans-serif;
+  margin-left: 30px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  canvas {
+    margin: 0;
+    margin-top: 20px;
+    background-color: #76e72b;
+    width: 800;
+    height: 500;
+  }
+
+  .box {
+    color:black;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background-color: #d1ef7c;
+    border: 1px dotted rgb(12, 12, 11);    
+  }
